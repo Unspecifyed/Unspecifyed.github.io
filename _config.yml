@@ -1,17 +1,19 @@
 title: "Your Portfolio"
-email: "your.email@example.com"
-description: "A brief description of your site."
-baseurl: ""
-url: https://unspecifyed.github.io/
-theme: "minimal-mistakes-jekyll"
+description: "A brief description of your portfolio site."
+baseurl: "" # Leave this blank, unless you’re hosting it in a subfolder.
+url: "https://yourusername.github.io" # Replace with your actual GitHub Pages URL.
 
+# Theme selection
+theme: jekyll-theme-cayman
+
+# GitHub Pages Plugins (use GitHub-approved plugins only)
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
+# Optional social links
 author:
   name: "Your Name"
-  avatar: "/assets/images/profile.jpg"
+  email: "your.email@example.com"
   links:
     - label: "GitHub"
       url: "https://github.com/yourusername"

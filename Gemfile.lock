@@ -303,19 +303,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  activesupport
-  concurrent-ruby
-  execjs
-  faraday
-  faraday-net_http
   github-pages
-  i18n
-  json
-  logger
-  minitest
-  rexml
-  uri
-  webrick
 
 BUNDLED WITH
    2.5.22
