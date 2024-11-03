@@ -1,4 +1,15 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-
+gem "webrick"
+gem "i18n"
+gem "rexml"
+gem "faraday"
+gem "concurrent-ruby"
+gem "execjs"
+gem "activesupport"
+gem "faraday-net_http"
+gem "json"
+gem "logger"
+gem "minitest"
+gem "uri"
