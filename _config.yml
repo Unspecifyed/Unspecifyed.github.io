@@ -1,19 +1,19 @@
-title: "Francis Cottrell-Eshaghi's Portfolio"
-email: "francis.cottrell-eshaghi@snhu.edu"
-description: "Portfolio and resume for Francis Cottrell-Eshaghi."
+title: "Your Portfolio"
+email: "your.email@example.com"
+description: "A brief description of your site."
 baseurl: ""
-url: "https://unspecifyed.github.io"
+url: https://unspecifyed.github.io/
 theme: "minimal-mistakes-jekyll"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Optional social links
-author: "Francis Cottrell-Eshaghi"
-  name: "Francis Cottrell-Eshaghi"
+author:
+  name: "Your Name"
   avatar: "/assets/images/profile.jpg"
   links:
     - label: "GitHub"
-      url: "https://github.com/unspecifyed"
+      url: "https://github.com/yourusername"
     - label: "LinkedIn"
-      url: https://www.linkedin.com/in/francis-cottrell-eshaghi-8a8572249/ 
+      url: "https://linkedin.com/in/yourusername"
