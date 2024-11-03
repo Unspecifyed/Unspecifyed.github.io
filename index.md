@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Welcome to My Portfolio"
+description: "Explore my projects, skills, and professional journey."
 ---
 
 <style>
@@ -28,7 +29,7 @@ title: "Welcome to My Portfolio"
 Explore my projects, skills, and professional journey through this site.
 
 <div class="nav-links">
-  - [About Me](/about/)
-  - [Resume](/resume/)
-  - [Projects](/projects/) <!-- Projects section linked to _posts/ -->
+  - [About Me]({{ site.baseurl }}/about/)
+  - [Resume]({{ site.baseurl }}/resume/)
+  - [Projects]({{ site.baseurl }}/projects/)
 </div>
