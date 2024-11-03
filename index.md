@@ -4,36 +4,31 @@ title: "Welcome to My Portfolio"
 ---
 
 <style>
-  /* Dark background and text styling */
+  /* Dark background with light text */
   body {
-    background-color: #121212;
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
-  }
-
-  h1, h2 {
-    color: #ffffff;
+    background-color: #1c1c1c;
+    color: #f5f5f5;
   }
 
   /* Styling for navigation links */
   .nav-links a {
-    color: #bb86fc; /* Soft purple color */
+    color: #4fc3f7; /* Light blue color for links */
     text-decoration: none;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 15px;
   }
 
   .nav-links a:hover {
-    color: #03dac6; /* Teal hover color */
+    text-decoration: underline;
   }
 </style>
 
 # Welcome to My Portfolio
 
-Explore my work, experience, and projects. Click on the links below to learn more!
+Explore my projects, skills, and professional journey through this site.
 
 <div class="nav-links">
   - [About Me](/about/)
   - [Resume](/resume/)
-  - [Projects](/projects/)
+  - [Projects](/projects/) <!-- Projects section linked to _posts/ -->
 </div>
