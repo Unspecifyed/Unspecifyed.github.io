@@ -12,6 +12,10 @@ description: "Explore my projects, skills, and professional journey."
   }
 
   /* Styling for navigation links */
+  .nav-links {
+    margin-top: 20px;
+  }
+
   .nav-links a {
     color: #4fc3f7; /* Light blue color for links */
     text-decoration: none;
@@ -29,7 +33,7 @@ description: "Explore my projects, skills, and professional journey."
 Explore my projects, skills, and professional journey through this site.
 
 <div class="nav-links">
-  - [About Me]({{ site.baseurl }}/about/)
-  - [Resume]({{ site.baseurl }}/resume/)
-  - [Projects]({{ site.baseurl }}/projects/)
+  <a href="{{ site.baseurl }}/about/">About Me</a>
+  <a href="{{ site.baseurl }}/resume/">Resume</a>
+  <a href="{{ site.baseurl }}/projects/">Projects</a>
 </div>
