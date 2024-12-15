@@ -5,7 +5,14 @@ description: "Explore my projects, skills, and professional journey."
 ---
 
 <style>
-  /* Styling for a modern look */
+  /* Overall page styling */
+  body {
+    background-color: #1a1a1a; /* Dark black background */
+    color: #e63946; /* Vibrant red for text */
+    font-family: Arial, sans-serif;
+  }
+
+  /* Hero section styling */
   .hero-section {
     text-align: center;
     margin-top: 50px;
@@ -13,16 +20,17 @@ description: "Explore my projects, skills, and professional journey."
 
   .hero-title {
     font-size: 2.5em;
-    color: #4fc3f7; /* Highlighted light blue color */
+    color: #e63946; /* Red for the title */
     margin-bottom: 20px;
   }
 
   .hero-description {
     font-size: 1.2em;
-    color: #f5f5f5;
+    color: #ffffff; /* White for description text */
     margin-bottom: 40px;
   }
 
+  /* Call-to-action buttons */
   .cta-buttons {
     display: flex;
     justify-content: center;
@@ -32,15 +40,17 @@ description: "Explore my projects, skills, and professional journey."
 
   .cta-buttons a {
     text-decoration: none;
-    color: white;
-    background-color: #4fc3f7;
+    color: #1a1a1a; /* Black text on red buttons */
+    background-color: #e63946; /* Red button background */
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
   }
 
   .cta-buttons a:hover {
-    background-color: #0288d1; /* Darker blue */
+    background-color: #ffffff; /* White on hover */
+    color: #e63946; /* Red text on hover */
   }
 </style>
 
