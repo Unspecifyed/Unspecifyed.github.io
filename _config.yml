@@ -27,6 +27,7 @@ kramdown:
 
 # Exclude certain files from the build
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
   - README.md
