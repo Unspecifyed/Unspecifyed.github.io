@@ -1,7 +1,7 @@
-- name: CS410 Project: Bank App Reverse Engineering
-  url: https://github.com/Unspecifyed/cs410ProjectBankAppReverseEngneering
-  description: Reverse engineering a banking application for advanced software analysis.
+- name: "CS410 Project: Bank App Reverse Engineering"
+  url: "https://github.com/Unspecifyed/cs410ProjectBankAppReverseEngneering"
+  description: "Reverse engineering a banking application for advanced software analysis."
 
-- name: Weight Tracker
-  url: https://github.com/Unspecifyed/WeightTracker
-  description: Android app to track and visualize weight loss progress.
+- name: "Weight Tracker"
+  url: "https://github.com/Unspecifyed/WeightTracker"
+  description: "Android app to track and visualize weight loss progress."
