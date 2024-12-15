@@ -1,6 +1,6 @@
 title: "Your Portfolio"
 description: "A brief description of your portfolio site."
-baseurl: "" # Leave this blank, unless you’re hosting it in a subfolder.
+baseurl: "" # Leave this blank unless hosting in a subfolder (e.g., /repo-name).
 url: "https://Unspecified.github.io" # Replace with your actual GitHub Pages URL.
 
 # Theme selection
@@ -10,12 +10,27 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
-# Optional social links
+# Author information
 author:
-  name: "Your Name"
-  email: "your.email@example.com"
+  name: "Your Name" # Replace with your actual name
+  email: "your.email@example.com" # Optional, replace with your real email if needed
   links:
     - label: "GitHub"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/Unspecified" # Replace with your GitHub username
     - label: "LinkedIn"
-      url: "https://linkedin.com/in/yourusername"
+      url: "https://linkedin.com/in/yourusername" # Replace with your LinkedIn profile URL
+
+# Markdown configuration
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Exclude certain files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+# Enable permalink structure for clean URLs
+permalink: pretty
