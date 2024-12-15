@@ -1,5 +1,4 @@
 ---
----
 layout: default
 title: "Welcome to My Portfolio"
 description: "Explore my projects, skills, and professional journey."
