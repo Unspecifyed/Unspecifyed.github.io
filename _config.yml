@@ -1,7 +1,7 @@
 title: "Your Portfolio"
 description: "A brief description of your portfolio site."
 baseurl: "" # Leave this blank, unless you’re hosting it in a subfolder.
-url: "https://yourusername.github.io" # Replace with your actual GitHub Pages URL.
+url: "https://Unspecified.github.io" # Replace with your actual GitHub Pages URL.
 
 # Theme selection
 theme: jekyll-theme-cayman
