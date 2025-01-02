@@ -61,6 +61,6 @@ description: "Explore my projects, skills, and professional journey."
   </p>
   <div class="cta-buttons">
     <a href="{{ '/projects/' | relative_url }}">View My Projects</a>
-    <a href="{{ '/resume/' | relative_url }}">See My Resume</a>
+    <a href="/cv.pdf" target="_blank">See My Resume</a>
   </div>
 </div>
