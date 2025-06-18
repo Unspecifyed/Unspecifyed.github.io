@@ -7,8 +7,8 @@ description: "Explore my projects, skills, and professional journey."
 <style>
   /* Overall page styling */
   body {
-    background-color: #1a1a1a; /* Dark black background */
-    color: #e63946; /* Vibrant red for text */
+    background-color: #1a1a1a;
+    color: #e63946;
     font-family: Arial, sans-serif;
   }
 
@@ -20,13 +20,13 @@ description: "Explore my projects, skills, and professional journey."
 
   .hero-title {
     font-size: 2.5em;
-    color: #e63946; /* Red for the title */
+    color: #e63946;
     margin-bottom: 20px;
   }
 
   .hero-description {
     font-size: 1.2em;
-    color: #ffffff; /* White for description text */
+    color: #ffffff;
     margin-bottom: 40px;
   }
 
@@ -36,12 +36,13 @@ description: "Explore my projects, skills, and professional journey."
     justify-content: center;
     gap: 15px;
     margin-top: 20px;
+    flex-wrap: wrap;
   }
 
   .cta-buttons a {
     text-decoration: none;
-    color: #1a1a1a; /* Black text on red buttons */
-    background-color: #e63946; /* Red button background */
+    color: #1a1a1a;
+    background-color: #e63946;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
@@ -49,8 +50,8 @@ description: "Explore my projects, skills, and professional journey."
   }
 
   .cta-buttons a:hover {
-    background-color: #ffffff; /* White on hover */
-    color: #e63946; /* Red text on hover */
+    background-color: #ffffff;
+    color: #e63946;
   }
 </style>
 
@@ -62,5 +63,6 @@ description: "Explore my projects, skills, and professional journey."
   <div class="cta-buttons">
     <a href="{{ '/projects/' | relative_url }}">View My Projects</a>
     <a href="/cv.pdf" target="_blank">See My Resume</a>
+    <a href="{{ '/store/' | relative_url }}">Visit My Store</a>
   </div>
 </div>
